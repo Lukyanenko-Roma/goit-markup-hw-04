@@ -1,0 +1,362 @@
+:root {
+  --accent-color: #2196f3;
+  --main-font: "Roboto", sans-serif;
+  --title-theme-color: #212121;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+
+/*======= HEADER ========*/
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  padding: 32px 0;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.logo-header {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+  color: #212121;
+}
+.logo-color {
+  color: #2196f3;
+}
+
+.navigation-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+  color: #212121;
+  display: flex;
+}
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.address {
+  display: flex;
+}
+.header-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header .address {
+  margin-left: auto;
+}
+.header-address:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--accent-color);
+}
+
+/*======= TITLE ========*/
+.title-item {
+  background: #2f303a;
+  margin-bottom: 94px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.title-list {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.title-btn {
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 136px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.187;
+  text-decoration: none;
+}
+
+/*======= ABOUT LIST ========*/
+
+.about-list {
+  display: flex;
+  margin-bottom: 94px;
+}
+.about-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.about-list-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.about-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+  padding-right: 10px;
+}
+.about-list-link {
+  margin-bottom: 10px;
+}
+
+/*======== What are we doing =======*/
+
+.doing-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-theme-color);
+  font-family: var(--main-font);
+}
+
+.doing-title {
+  margin-bottom: 50px;
+}
+
+.doing-list {
+  display: flex;
+  margin-bottom: 94px;
+}
+.doing-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/*======== Our TEAM =======*/
+.team-container {
+  background: #f5f4fa;
+  padding-top: 186px;
+  padding-bottom: 94px;
+}
+.team-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-title {
+  margin-bottom: 50px;
+}
+
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-list-item {
+  border: 1px solid transparent;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-list-img {
+  margin-bottom: 30px;
+}
+
+.team-list-name {
+  margin-bottom: 10px;
+}
+.team-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+/*=========FOOTER=========*/
+
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contacts-list-link-map {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.contacts-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.contacts-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 20px;
+}
+.contacts-list-link-map:hover,
+.contacts-list-link-map:focus,
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+  color: var(--accent-color);
+}
+
+/*======= PORTFOLIO ========*/
+
+.portfolio {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.clicks-list {
+  display: flex;
+  margin-bottom: 34px;
+  margin-top: 94px;
+  justify-content: center;
+}
+
+.clicks-list-item:not(:last-child) {
+  margin-right: 8px;
+}
+.clicks-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+
+  display: inline-block;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+.clicks-list:hover .clicks-list:focus {
+  color: var(--accent-color);
+}
+
+/*  WORK  */
+
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.work-list-item {
+  display: inline-block;
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.work-list-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.work-list-item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+
+.work-list-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin-bottom: 4px;
+  margin-left: 24px;
+}
+
+.work-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-bottom: 20px;
+  margin-left: 24px;
+}
+
+.work-list-img {
+  margin-bottom: 20px;
+}
