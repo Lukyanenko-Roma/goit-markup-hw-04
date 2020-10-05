@@ -32,6 +32,10 @@ img {
   display: block;
 }
 
+a:visited {
+  color: none;
+}
+
 /*======= HEADER ========*/
 
 .container {
@@ -68,6 +72,9 @@ img {
   color: #212121;
   display: flex;
 }
+.navigation-list-link {
+  color: #212121;
+}
 .navigation-list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -81,7 +88,9 @@ img {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  fill: #757575;
+}
+.header-address-link {
+  color: #757575;
 }
 .header .address {
   margin-left: auto;
@@ -384,6 +393,9 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+.contacts-list-link {
+  color: #757575;
 }
 
 .contacts-item:not(:last-child) {
